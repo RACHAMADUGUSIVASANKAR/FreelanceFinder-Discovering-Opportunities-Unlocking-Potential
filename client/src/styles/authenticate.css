@@ -1,0 +1,129 @@
+.auth-box {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  width: 360px;
+  max-width: 90%;
+  margin: 120px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  text-align: center;
+  color: #ffffff;
+}
+
+.auth-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-input {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.auth-btn {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background-color: #ffd900;
+}
+
+.auth-toggle {
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.auth-toggle span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* NAVBAR */
+.auth-navbar {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3vw;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.left-space {
+  width: 20%;
+}
+
+.center-title {
+  font-family: 'Kaushan Script', cursive;
+  color: #007BFF;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  width: 60%;
+}
+
+.home-link {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(137, 134, 132, 0.916);
+  font-weight: 600;
+  cursor: pointer;
+  text-align: right;
+  width: 20%;
+}
+
+/* 📱 Responsive */
+@media screen and (max-width: 600px) {
+  .auth-box {
+    margin-top: 100px;
+    padding: 25px 20px;
+  }
+
+  .auth-title {
+    font-size: 20px;
+  }
+
+  .auth-navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .left-space,
+  .center-title,
+  .home-link {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .auth-btn {
+    font-size: 14px;
+  }
+}

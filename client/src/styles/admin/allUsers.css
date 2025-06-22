@@ -1,0 +1,54 @@
+.all-users-page {
+  padding: 40px;
+  background-color: #0b1e3c; /* Dark blue background */
+  min-height: 100vh;
+  color: white;
+}
+
+.all-users-page h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #ffc107; /* Yellow heading */
+}
+
+.all-users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.user:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.user span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user span b {
+  display: block;
+  font-size: 14px;
+  color: #ffd700;
+}
+
+.user span p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}

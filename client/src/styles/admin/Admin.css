@@ -1,0 +1,40 @@
+/* Admin.css */
+.admin-page {
+  padding: 20px;
+  background-color: #001f3f; /* dark blue background */
+  min-height: 100vh;
+  color: white;
+}
+
+.home-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.home-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  width: 240px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.home-card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.home-card button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}

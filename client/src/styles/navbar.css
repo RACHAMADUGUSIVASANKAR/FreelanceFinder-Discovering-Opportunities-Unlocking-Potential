@@ -1,0 +1,59 @@
+.navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  background-color: #ffffff;
+}
+
+.navbar h3 {
+  color: #ee4950;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-options {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.nav-options p {
+  margin: 0;
+  color: rgb(137, 135, 135);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-options p:hover {
+  color: rgb(57, 57, 57);
+  font-weight: 500;
+}
+
+/* 📱 Responsive styles for mobile/tablet */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 2vw;
+  }
+
+  .navbar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+
+  .nav-options {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .nav-options p {
+    font-size: 14px;
+  }
+}

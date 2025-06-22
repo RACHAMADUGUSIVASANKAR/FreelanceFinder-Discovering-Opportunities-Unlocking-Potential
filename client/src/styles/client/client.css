@@ -1,0 +1,57 @@
+.client-projects-page {
+  background-color: #0b1d3a; /* dark blue */
+  min-height: 100vh;
+  padding: 30px;
+  color: white;
+}
+
+.client-projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.client-projects-header h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.client-projects-header select {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.listed-project {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
+  cursor: pointer;
+  color: white;
+}
+
+.listed-project:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.listed-project-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bids-data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

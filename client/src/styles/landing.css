@@ -1,0 +1,148 @@
+.landing-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-hero {
+  background: url('https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?b=1&s=612x612&w=0&k=20&c=mMG_-IOsy9IOupqSDvEbeqduD-LGZ3bBp1fZ5pXoIwA=');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vh 5vw;
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 0;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+}
+
+.landing-nav h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.landing-nav button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.landing-nav button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.landing-hero-text {
+  text-align: center;
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.landing-hero-text h1 {
+  font-size: 2.8rem;
+  color: yellow;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.landing-hero-text h5, .landing-hero-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #f0f0f0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.landing-hero-text button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 3rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.landing-hero-text button:hover {
+  background-color: #ffffff22;
+}
+
+/* ✅ Responsive Fixes */
+@media screen and (max-width: 768px) {
+  .landing-hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .landing-hero-text h5 {
+    font-size: 0.9rem;
+  }
+
+  .landing-nav h3 {
+    font-size: 1.2rem;
+  }
+
+  .landing-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .landing-hero {
+    padding: 2vh 3vw;
+    height: auto;
+  }
+
+  .landing-hero-text {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .landing-hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .landing-hero-text h5 {
+    font-size: 0.85rem;
+  }
+
+  .landing-nav button {
+    width: 100%;
+  }
+
+  .landing-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing-hero-text button {
+    width: 100%;
+  }
+}

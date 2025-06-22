@@ -1,0 +1,72 @@
+.client-applications-page {
+  background-color: #0b1d3a; /* dark blue */
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: white;
+}
+
+.client-applications-page h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.client-applications-page select {
+  margin-bottom: 30px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.client-applications-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.client-application {
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
+}
+
+.client-application:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.client-application-body {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.client-application-half {
+  flex: 1;
+  min-width: 300px;
+}
+
+.application-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.application-skills p {
+  background: #ffffff1c;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+}

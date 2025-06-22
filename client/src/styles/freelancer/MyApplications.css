@@ -1,0 +1,175 @@
+.user-applications-page{
+    padding: 2vh 2vw;
+
+}
+
+.user-applications-page h3{
+
+
+}
+
+.user-applications-body{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 76vh;
+    border-radius: 0.7rem;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    overflow-y: scroll;
+}   
+.user-application{
+    padding: 2vh 2vw;
+    cursor: pointer;
+}
+
+.user-application:hover{
+    background-color: rgba(12, 105, 148, 0.071);
+}
+
+.user-application-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-application hr{
+    height: 2px;
+    background-color: rgba(84, 86, 86, 0.377);
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.vertical-line{
+    width: 1px;
+    background-color: rgba(110, 109, 109, 0.233);
+    height: inherit;
+}
+
+.user-application-half{
+
+    width: 48%;
+}
+
+.user-application-half h4{
+    font-size: 1.2rem;
+    color: rgba(26, 83, 121, 0.646);
+}
+
+.user-application-half p{
+    font-size: 0.8rem;
+}
+
+.user-application-half h5{
+    font-size: 0.9rem;
+    color: rgba(9, 55, 86, 0.61);
+}
+
+.user-application-half h5 b{
+    font-size: 0.9rem;
+    color: rgba(5, 40, 64, 0.877);
+    font-weight: 500;
+}
+
+.user-application-half span{
+
+}
+
+.user-application-half span h5{
+    font-size: 1.1rem;
+    color: rgba(9, 55, 86, 0.877);
+}
+
+.user-application-half span p{
+
+}
+
+.user-application-half span .application-skills{
+    display: flex;
+    gap: 10px;
+}
+
+
+.user-application-half span .application-skills p{
+
+    color: #ee4950;
+    border: 1px solid #ee4950;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    font-size: 0.6rem;
+}
+
+.user-application-half h6{
+
+    font-size: 0.9rem;
+}
+
+.user-application-half h6 b{
+
+    color: rgb(130, 131, 130);
+}
+
+.freelancer-theme {
+  background-color: #0a0f3d;
+  color: white;
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.freelancer-theme h3,
+.freelancer-theme h4,
+.freelancer-theme h5,
+.freelancer-theme h6,
+.freelancer-theme p {
+  color: white;
+}
+
+.freelancer-theme .user-application {
+  background-color: #131b5a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.freelancer-theme .user-application-half {
+  width: 48%;
+}
+
+.freelancer-theme .application-skills p {
+  display: inline-block;
+  background-color: #1f2a5c;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.freelancer-theme .vertical-line {
+  width: 2px;
+  background-color: white;
+  height: 100%;
+  margin: 0 10px;
+}
+@media (max-width: 768px) {
+  .user-applications-body {
+    height: auto;
+    overflow: auto;
+  }
+
+  .user-application-body {
+    flex-direction: column;
+  }
+
+  .user-application-half {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .freelancer-theme .vertical-line {
+    display: none;
+  }
+
+  .application-skills {
+    flex-wrap: wrap;
+  }
+}

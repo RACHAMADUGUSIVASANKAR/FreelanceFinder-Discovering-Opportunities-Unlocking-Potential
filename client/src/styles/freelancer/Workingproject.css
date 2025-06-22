@@ -1,0 +1,76 @@
+.working-project-page {
+  background-color: #0d1b2a;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.working-project-page h2 {
+  color: #4dabf7;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Common box styles */
+.project-progress-box,
+.submission-status {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section titles */
+.project-progress-box h4,
+.submission-status h4 {
+  color: #ffa726;
+  margin-bottom: 10px;
+}
+
+/* Status texts */
+.status-text {
+  font-size: 16px;
+  color: #f1f1f1;
+  margin: 5px 0;
+}
+
+/* Submission result */
+.submission-status p {
+  font-size: 15px;
+  color: #cccccc;
+}
+
+/* Button style (if any) */
+.working-project-page button {
+  padding: 10px 20px;
+  background-color: #4dabf7;
+  color: #0d1b2a;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.working-project-page button:hover {
+  background-color: #1a8cd8;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .working-project-page {
+    padding: 20px 10px;
+  }
+
+  .project-progress-box,
+  .submission-status {
+    padding: 15px;
+  }
+
+  .working-project-page h2 {
+    font-size: 22px;
+  }
+}

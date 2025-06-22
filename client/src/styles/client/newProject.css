@@ -1,0 +1,52 @@
+.new-project-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #0b1d3a; /* dark blue */
+  color: white;
+}
+
+.new-project-page h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.new-project-form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.form-floating label {
+  color: #ccc;
+}
+
+.form-control {
+  background-color: #ffffff14;
+  color: white;
+  border: 1px solid #4b83cc;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #1c64f2;
+  color: white;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3b82f6;
+}
