@@ -3,7 +3,7 @@ SB Works – Demo Video Description
 SB Works is a full-stack freelancing platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 This 22-second video provides a quick walkthrough of key features, including:
 
-✨ Interactive Landing Page
+✨ Landing Page
 
 🔐 User Authentication (Login)
 
