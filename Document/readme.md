@@ -43,19 +43,19 @@ Meet *Sarah*, a graphic designer:
 ## 📂 Project Structure
 
 
-freelancer-app-MERN/
+FreelanceFinder/
 │
-├── client/            # React frontend
-│   ├── components/
-│   ├── pages/
-│   └── context/
+├── client/         # React frontend
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
 │
-├── server/            # Express backend
+├── server/         # Node.js + Express backend
+│   ├── controllers/
 │   ├── models/
-│   ├── routes/
-│   └── config/
-│
-└── README.md
+│   ├── index.mjs
+│   └── ...
 
 
 ---
