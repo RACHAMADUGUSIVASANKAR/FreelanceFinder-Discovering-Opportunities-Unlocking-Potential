@@ -40,9 +40,9 @@ Meet *Sarah*, a graphic designer:
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-
+```
 FreelanceFinder/
 │
 ├── client/         # React frontend
@@ -56,7 +56,7 @@ FreelanceFinder/
 │   ├── models/
 │   ├── index.mjs
 │   └── ...
-
+```
 
 ---
 
