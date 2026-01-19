@@ -95,4 +95,7 @@ Backend runs at: `http://localhost:6001`
 ### 🔹 Backend (Node.js)
 Host separately using platforms like **Render**, **Railway**, or **Vercel (Serverless)**
 
+### Resourses
+https://drive.google.com/drive/folders/1urnTYjdhnH-29L7zfZgL-AevS8xvbSCQ
+
 ---
